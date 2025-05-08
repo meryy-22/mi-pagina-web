@@ -33,9 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <h1>Hola</h1>
         {children}
-        <h1>Adios</h1>
         <ScrollRestoration />
         <Scripts />
       </body>
